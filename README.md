@@ -26,9 +26,9 @@ The goal of this project is to demonstrate:
 - Prints informative messages for both correct and incorrect usage
 - Implements operations using individual functions for clarity and modularity
 - Simple structure suitable for academic assignments and demonstrations
-- 
+
 # Example Usage
-python calculator.py add 5 3
-python calculator.py sub 10 4
-python calculator.py mul 2 7
-python calculator.py div 10 2
+- python calculator.py add 5 3
+- python calculator.py sub 10 4
+- python calculator.py mul 2 7
+- python calculator.py div 10 2
