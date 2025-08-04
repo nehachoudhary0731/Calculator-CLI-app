@@ -4,21 +4,21 @@ import sys
 def add(numbers):
     return sum(numbers)
 
-# Function to subtract numbers in order
+#subtract
 def subtract(numbers):
     result = numbers[0]
     for num in numbers[1:]:
         result -= num
     return result
 
-# Function to multiply all numbers
+#multiply
 def multiply(numbers):
     result = 1
     for num in numbers:
         result *= num
     return result
 
-# Function to divide numbers in order
+#divide
 def divide(numbers):
     result = numbers[0]
     try:
@@ -56,4 +56,5 @@ if __name__ == "__main__":
         print("Usage: python calculator.py [operation] [num1] [num2] ...")
         print("Example: python calculator.py add 10 20 30")
     except ValueError:
+
         print("Error: Please enter valid numeric values only.")
